@@ -1,0 +1,56 @@
+
+body {
+	margin: 0;
+
+}
+
+header{
+	background: darkblue;
+	color: white;
+	margin: 0;
+}
+
+header h1 {
+	margin: 0;
+	float: left;
+	padding: 10px 0 10px 15px;
+}
+
+header a {
+	color: yellow;
+    text-decoration: none;
+	margin:0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: Darkblue;
+
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: brown;
+    text-align: center;
+    padding: 14px 		;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: black;
+}
+
+nav .active {
+    background-color: orange;
+}
+
+div {
+	margin: 0;
+	clear: both;
+}
